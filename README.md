@@ -13,11 +13,15 @@ API que fornece um controle de usuário que possibilita fazer as operações CRU
 **Rotas**
 * GET / 
 
-Retorna todos os usuários
+Retorna todos os usuários salvos.
 * GET /:id 
 
-Retorna o usuário que corresponde ao id
+Retorna o usuário salvo que corresponde ao id
 * POST / 
+
+Salva o usuário informado e retorna uma mensagem de sucesso
+
+Atributos que devem ser informados - nome, email, nome_empresa, senha, telefone.
 * PUT /:id
 * PUT /login/:id
 * DELETE /:id
