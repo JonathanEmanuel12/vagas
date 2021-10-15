@@ -12,8 +12,10 @@ API que fornece um controle de usuário que possibilita fazer as operações CRU
 
 **Rotas**
 * GET / 
+
 Retorna todos os usuários
 * GET /:id 
+
 Retorna o usuário que corresponde ao id
 * POST / 
 * PUT /:id
