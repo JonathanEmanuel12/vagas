@@ -35,3 +35,7 @@ Atributos que devem ser informados - email, senha.
 * DELETE /:id
 
 Apaga o usuario que corresponde ao id.
+
+Para testar essa api é necessário ter o Node.js e MySql instalado. As informações do banco de dados como login e senha devem ser alteradas conforme necessário.
+
+Deve-se ter também um banco de dados já criado dentro do MySQL com o nome "vagasalestime", a tabela é criada pela API.
